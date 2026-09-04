@@ -25,50 +25,19 @@
           "en": "GM Hanon"
         },
         "mail_items": [
-          [
-            2,
-            1000
-          ],
-          [
-            3,
-            5000
-          ],
-          [
-            4,
-            5
-          ],
-          [
-            5,
-            15
-          ],
-          [
-            6,
-            15
-          ],
-          [
-            31,
-            1
-          ],
-          [
-            32,
-            1
-          ],
-          [
-            33,
-            1
-          ],
-          [
-            34,
-            1
-          ],
-          [
-            35,
-            1
-          ]
+          [2,1000],
+          [3,5000],
+          [4,5],
+          [5,15],
+          [6,15],
+          [31,1],
+          [32,1],
+          [33,1],
+          [34,1],
+          [35,1]
         ]
       },
       {
-        "login_date": "",
         "begin_date": "2026-09-03",
         "end_date": "2026-09-08",
         "send_time": "4:00",
@@ -81,57 +50,27 @@
           "en": "A Lunchtime Gift for You/1 Syncer!"
         },
         "desc_text": {
-          "ko": "안녕하세요/1 싱커님! GM 하논이에요! 점심은 맛있게 드셨나요?/n/n바쁜 하루 중에도 함께해 주시는 싱커님께 감사한 마음을 담아/n점심 접속 선물을 보내드려요!/n/n그럼 오늘 오후도 아가타들과 세상을 구해주세요!\", \"en\": \"Hello/1 Syncer! It's GM Hanon! Did you enjoy your lunch?/n/nAs a thank-you for being with us even on a busy day/1 here's your lunchtime login gift!/n/nNow go save the world with your Agathas this afternoon!"
+          "ko": "안녕하세요/1 싱커님! GM 하논이에요! 점심은 맛있게 드셨나요?/n/n바쁜 하루 중에도 함께해 주시는 싱커님께 감사한 마음을 담아/n점심 접속 선물을 보내드려요!/n/n그럼 오늘 오후도 아가타들과 세상을 구해주세요!",
+          "en": "Hello/1 Syncer! It's GM Hanon! Did you enjoy your lunch?/n/nAs a thank-you for being with us even on a busy day/1 here's your lunchtime login gift!/n/nNow go save the world with your Agathas this afternoon!"
         },
         "from_text": {
           "ko": "GM 하논",
           "en": "GM Hanon"
         },
         "mail_items": [
-          [
-            2,
-            1000
-          ],
-          [
-            3,
-            5000
-          ],
-          [
-            4,
-            5
-          ],
-          [
-            5,
-            15
-          ],
-          [
-            6,
-            15
-          ],
-          [
-            31,
-            1
-          ],
-          [
-            32,
-            1
-          ],
-          [
-            33,
-            1
-          ],
-          [
-            34,
-            1
-          ],
-          [
-            35,
-            1
-          ]
+          [2,1000],
+          [3,5000],
+          [4,5],
+          [5,15],
+          [6,15],
+          [31,1],
+          [32,1],
+          [33,1],
+          [34,1],
+          [35,1]
         ]
       },
       {
-        "login_date": "",
         "begin_date": "2026-09-03",
         "end_date": "2026-09-08",
         "send_time": "9:00",
@@ -139,22 +78,22 @@
         "title": 0,
         "context": 0,
         "expire": 2,
-        "subject_text": {"ko": "싱커님을 위한 저녁 선물!", "en": "An Evening Gift for You/1 Syncer!"},
-        "desc_text": {"ko": "안녕하세요/1 싱커님! GM 하논이에요! 오늘 하루도 고생 많으셨어요./n/n하루를 마무리하는 싱커님께 감사와 응원의 마음을 담아/n저녁 접속 선물을 보내드려요!/n/n그럼 오늘 저녁도 아가타들과 세상을 구해주세요!\", \"en\": \"Hello/1 Syncer! It's GM Hanon! You've worked hard today./n/nAs a thank-you to wrap up your day/1 here's your evening login gift!/n/nNow go save the world with your Agathas tonight!"},
-        "from_text": {"ko": "GM 하논", "en": "GM Hanon"},
+        "subject_text": {
+          "ko": "싱커님을 위한 저녁 선물!",
+          "en": "An Evening Gift for You/1 Syncer!"
+        },
+        "desc_text": {
+          "ko": "안녕하세요/1 싱커님! GM 하논이에요! 오늘 하루도 고생 많으셨어요./n/n하루를 마무리하는 싱커님께 감사와 응원의 마음을 담아/n저녁 접속 선물을 보내드려요!/n/n그럼 오늘 저녁도 아가타들과 세상을 구해주세요!",
+          "en": "Hello/1 Syncer! It's GM Hanon! You've worked hard today./n/nAs a thank-you to wrap up your day/1 here's your evening login gift!/n/nNow go save the world with your Agathas tonight!"
+        },
+        "from_text": {
+          "ko": "GM 하논",
+          "en": "GM Hanon"
+        },
         "mail_items": [
-          [
-            4,
-            20
-          ],
-          [
-            5,
-            60
-          ],
-          [
-            6,
-            60
-          ]
+          [4,20],
+          [5,60],
+          [6,60]
         ]
       }
     ]

@@ -1,15 +1,16 @@
 "use strict"
 
-import cron from 'node-cron';
-import winston from 'winston';
 import path from "node:path";
 import fs from "node:fs";
 import http from "node:http";
 import Database from 'better-sqlite3';
-
+import cron from 'node-cron';
+import winston from 'winston';
 import dotenv from "dotenv";
 dotenv.config({});
 
+const LOG_PATH = process.env.LOG_PATH;
+const SQLITE_PATH = process.env.SQLITE_PATH;
 
 const consoleFormat = winston.format.combine(
     winston.format.colorize(),
@@ -25,7 +26,7 @@ const loggerDebug = winston.createLogger({
   format: winston.format.json(),
   transports: [
     new winston.transports.Console({format: consoleFormat}),
-    new winston.transports.File({ filename: 'log/mail.log', format: fileFormat }),
+    new winston.transports.File({ filename: LOG_PATH, format: fileFormat }),
   ],
 });
 
@@ -34,7 +35,7 @@ const loggerInfo = winston.createLogger({
   format: winston.format.json(),
   transports: [
     new winston.transports.Console({format: consoleFormat}),
-    new winston.transports.File({ filename: 'log/mail.log', format: fileFormat }),
+    new winston.transports.File({ filename: LOG_PATH, format: fileFormat }),
   ],
 });
 
@@ -43,7 +44,7 @@ const loggerError = winston.createLogger({
   format: winston.format.json(),
   transports: [
     new winston.transports.Console({format: consoleFormat}),
-    new winston.transports.File({ filename: 'log/mail.log', format: fileFormat }),
+    new winston.transports.File({ filename: LOG_PATH, format: fileFormat }),
   ],
 });
 
@@ -64,10 +65,9 @@ const Logger = {
 }
 
 
-const SQLITE_PATH = process.env.SQLITE_PATH || "data/mails.db";
 fs.mkdirSync(path.dirname(SQLITE_PATH), { recursive: true });
 
-const sqlite = new Database('./data/mails.db', { verbose: Logger.log });
+const sqlite = new Database(SQLITE_PATH, { verbose: Logger.log });
 sqlite.exec(`
   PRAGMA journal_mode = WAL;
   CREATE TABLE IF NOT EXISTS job_log (
