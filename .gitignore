@@ -20,3 +20,7 @@ env/*
 serviceAccountKey.json
 google-services.json
 logs_admin
+log/*
+data/dev_mails.db
+data/dev_mails.db-shm
+data/dev_mails.db-wal
