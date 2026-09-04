@@ -1,0 +1,29 @@
+{
+  "name": "send_mail_worker",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/helee2344/send_mail_worker#readme",
+  "bugs": {
+    "url": "https://github.com/helee2344/send_mail_worker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helee2344/send_mail_worker.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app_send_mail_http.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^17.4.2",
+    "node-cron": "^4.6.0",
+    "winston": "^3.19.0"
+  },
+  "allowScripts": {
+    "better-sqlite3@13.0.3": true
+  }
+}
