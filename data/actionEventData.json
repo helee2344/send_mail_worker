@@ -71,32 +71,6 @@
         ]
       },
       {
-        "begin_date": "2026-09-11",
-        "end_date": "2026-09-15",
-        "send_time": "11:00",
-        "mail_no": 0,
-        "title": 0,
-        "context": 0,
-        "expire": 2,
-        "subject_text": {
-          "ko": "[런칭 기념] 오늘의 일일 선물이 도착했습니다!",
-          "en": "[Launch Celebration] Today's Daily Gift Has Arrived!"
-        },
-        "desc_text": {
-          "ko": "안녕하세요/1 싱커님. 김피디입니다./n여러 이슈에도 기다려주시고/1 큰 홍보 전부터 아가타 키우기를 찾아와 함께해주셔서 진심으로 감사드립니다./n감사의 마음을 담아 9월 15일까지 매일 20시에 「런칭 기념 일일 선물」을 보내드립니다./n오늘 준비한 선물도 즐겁게 사용해주시고/1 아가타들과 좋은 시간 보내시길 바랍니다./n보내주시는 응원과 믿음에 더 안정적인 서비스와 좋은 게임으로 보답하겠습니다./n감사합니다./n김피디",
-          "en": "Hello/1 Syncer. This is PD Kim./nThank you sincerely for waiting through the issues and for joining AgathaIdle even before our big promotion./nAs a token of our gratitude/1 we will send a Launch Celebration Daily Gift every day at 8 PM until September 15./nPlease enjoy today's gift and have a great time with your Agathas./nWe will repay your support and trust with a more stable service and a better game./nThank you./nPD Kim"
-        },
-        "from_text": {
-          "ko": "김피디",
-          "en": "PD Kim"
-        },
-        "mail_items": [
-          [4,50],
-          [5,150],
-          [6,150]
-        ]
-      },
-      {
         "begin_date": "2026-09-16",
         "end_date": "2026-09-22",
         "send_time": "11:00",
@@ -120,6 +94,60 @@
           [4,50],
           [5,150],
           [6,150]
+        ]
+      },
+      {
+        "begin_date": "2026-09-23",
+        "end_date": "2026-10-07",
+        "send_time": "0:00",
+        "mail_no": 0,
+        "title": 0,
+        "context": 0,
+        "expire": 2,
+        "subject_text": {
+          "ko": "한가위 아침 선물이 도착했어요!",
+          "en": "Your Chuseok Morning Gift Has Arrived!"
+        },
+        "desc_text": {
+          "ko": "좋은 아침이에요/1 싱커님! GM 하논이에요!/n풍성한 한가위를 맞아 아침 접속 선물을 준비했어요./n한가위 낮 참가권으로 낮 던전에서 보름달 같은 보상 가득 챙기시고/1/n오늘도 아가타들과 즐거운 명절 보내세요!",
+          "en": "Good morning/1 Syncer! It's GM Hanon!/nTo celebrate a bountiful Chuseok/1 here's your morning login gift./nUse your Chuseok Day Tickets to gather full-moon-sized rewards in the Day Dungeon/1/nand have a joyful holiday with your Agathas!"
+        },
+        "from_text": {
+          "ko": "GM 하논",
+          "en": "GM Hanon"
+        },
+        "mail_items": [
+          [4,10],
+          [5,30],
+          [6,30],
+          [200003,5]
+        ]
+      },
+      {
+        "begin_date": "2026-09-23",
+        "end_date": "2026-10-07",
+        "send_time": "12:00",
+        "mail_no": 0,
+        "title": 0,
+        "context": 0,
+        "expire": 2,
+        "subject_text": {
+          "ko": "한가위 밤 선물이 도착했어요!",
+          "en": "Your Chuseok Night Gift Has Arrived!"
+        },
+        "desc_text": {
+          "ko": "안녕하세요/1 싱커님! GM 하논이에요! 오늘 하루도 고생 많으셨어요./n보름달처럼 가득한 마음을 담아 밤 접속 선물을 준비했어요./n한가위 밤 참가권으로 밤 던전에서 한가위 보상 넉넉히 챙기시고/1/n남은 저녁도 아가타들과 따뜻하게 보내세요!",
+          "en": "Hello/1 Syncer! It's GM Hanon! You've worked hard today./nWith a heart as full as the harvest moon/1 here's your night login gift./nUse your Chuseok Night Tickets to collect plenty of holiday rewards in the Night Dungeon/1/nand enjoy a warm evening with your Agathas!"
+        },
+        "from_text": {
+          "ko": "GM 하논",
+          "en": "GM Hanon"
+        },
+        "mail_items": [
+          [4,10],
+          [5,30],
+          [6,30],
+          [200004,5]
         ]
       }
     ]
