@@ -149,6 +149,67 @@
           [6,30],
           [200004,5]
         ]
+      },
+      {
+        "begin_date": "2026-09-17",
+        "end_date": "2026-09-17",
+        "send_time": "0:00",
+        "mail_no": 0,
+        "title": 0,
+        "context": 0,
+        "expire": 14,
+        "subject_text": {
+          "ko": "정기 점검 완료 안내",
+          "en": "Scheduled Maintenance Complete"
+        },
+        "desc_text": {
+          "ko": "안녕하세요/1 아가타 키우기입니다./n9월 17일(목) 정기 점검이 완료되었습니다./n/n■ 점검 내용/n/n- 신규 콘텐츠: 전술 훈련/n- 신규 메모리: 아마리/1 미후/1 앰버/1 타미/1 헤기/1 에이버리/n- 아가타 스킬 효과 및 툴팁 수정/n/n기다려주신 싱커님들께 감사의 마음을 담아 점검 보상을 보내드립니다./n업데이트 상세 내용은 공식 카페의 9월 17일 업데이트 노트를 확인해주세요./n더욱 안정적인 서비스를 위해 최선을 다하겠습니다.",
+          "en": "Hello/1 this is AgathaIdle./nThe scheduled maintenance on September 17 (Thu) has been completed./n/n■ Details/n/n- New content: Tactical Training/n- New Memories: Amari/1 Mifu/1 Amber/1 Tami/1 Hegi/1 Avery/n- Agatha skill effect and tooltip fixes/n/nAs a thank-you for your patience/1 we are sending you a maintenance reward./nPlease see the September 17 update notes on the official cafe for details./nWe will do our best to provide a more stable service."
+        },
+        "from_text": {
+          "ko": "아가타 키우기 운영팀",
+          "en": "AgathaIdle Operations Team"
+        },
+        "mail_items": [
+          [2,2000],
+          [4,10],
+          [5,30],
+          [6,30],
+          [3,2000]
+        ]
+      },
+      {
+        "begin_date": "2026-09-17",
+        "end_date": "2026-09-17",
+        "send_time": "0:00",
+        "mail_no": 0,
+        "title": 0,
+        "context": 0,
+        "expire": 14,
+        "subject_text": {
+          "ko": "연장 점검 보상 안내",
+          "en": "Extended Maintenance Reward"
+        },
+        "desc_text": {
+          "ko": "안녕하세요/1 아가타 키우기입니다./n예정된 시간보다 길어진 점검으로 이용에 불편을 드려 죄송합니다./n오랜 시간 기다려주신 싱커님들께 죄송한 마음을 담아 보상을 전달드립니다./n더욱 안정적인 서비스로 보답하겠습니다.",
+          "en": "Hello/1 this is AgathaIdle./nWe apologize for the inconvenience caused by the maintenance running longer than scheduled./nAs an apology to all Syncers who waited so long/1 we are sending you a reward./nWe will repay you with a more stable service."
+        },
+        "from_text": {
+          "ko": "아가타 키우기 운영팀",
+          "en": "AgathaIdle Operations Team"
+        },
+        "mail_items": [
+          [2,2000],
+          [4,10],
+          [5,30],
+          [6,30],
+          [3,2000],
+          [31,5],
+          [32,5],
+          [33,5],
+          [34,5],
+          [35,5]
+        ]
       }
     ]
   }
