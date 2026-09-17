@@ -193,16 +193,23 @@ const sendMail = async (mail) => {
     "ADMIN_EXECUTE_SECOND_KEY": process.env.ADMIN_EXECUTE_SECOND_KEY,
     "ADMIN_EXECUTE_THIRD_KEY": process.env.ADMIN_EXECUTE_THIRD_KEY,
     "SEND_MAIL": {
-      "target_type": "ALL",
-      "user_idxs": [],
-      "mail_no": mail.mail_no,
-      "title": mail.title,
-      "context": mail.context,
-      "expire": mail.expire,
-      "subject_text": mail.subject_text,
-      "desc_text": mail.desc_text,
-      "from_text": mail.from_text,
-      "mail_items": mail.mail_items
+      "target_info": {
+        "comment": "ALL_USERS / TARGET_USER_IDXS",
+        "target_type": "ALL_USERS",
+        "exclusion_user_idxs": []
+      },
+      mail_infos: [
+        {
+          "mail_no": mail.mail_no,
+          "title": mail.title,
+          "context": mail.context,
+          "expire": mail.expire,
+          "subject_text": mail.subject_text,
+          "desc_text": mail.desc_text,
+          "from_text": mail.from_text,
+          "mail_items": mail.mail_items
+        }
+      ]
     }
   }
   const url = process.env.GAME_SERVER_URL;
