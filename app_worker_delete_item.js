@@ -13,6 +13,7 @@ import Logger from './logger.js';
 const LOG_PATH = process.env.LOG_PATH || "./log/delete_items.log";
 const logger = new Logger(LOG_PATH);
 
+const LIMIT_COUNT = Number(process.env.LIMIT_COUNT) || 1000;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
