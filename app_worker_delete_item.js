@@ -75,6 +75,7 @@ const execute = async () => {
       logger.log(`user_idx: ${userIdx}`)
       if (undefined == userIdx) {
         not_found_user_count++;
+        logger.log(`not found user_idx: ${targetUserIdx}`);
         continue;
       }
 
