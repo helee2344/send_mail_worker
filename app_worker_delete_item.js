@@ -17,6 +17,7 @@ const LIMIT_COUNT = Number(process.env.LIMIT_COUNT) || 1000;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
+const DATABASE = process.env.DB_DATABASE;
 
 const escape = (value) => {
   return mysql.escape(value)
@@ -77,7 +78,7 @@ const execute = async () => {
         continue;
       }
 
-      const query = `SELECT * FROM ${process.env.DB_DATABASE}.Item WHERE user_idx = ${escape(userIdx)} AND cnt = 0 AND item_no > 1000 ORDER BY item_idx ASC LIMIT 10`;
+      const query = `SELECT * FROM ${process.env.DB_DATABASE}.Item WHERE user_idx = ${escape(userIdx)} AND cnt = 0 AND item_no > 1000 ORDER BY item_idx ASC LIMIT ${escape(LIMIT_COUNT)}`;
       // logger.log(`# query : ${query}`);
       const [rows, data] = await connection.query(query);
       if (rows && 0 < rows.length) {
@@ -93,9 +94,10 @@ const execute = async () => {
         await sleep(100);
         const delete_query_module_item = `DELETE FROM ${process.env.DB_DATABASE}.ModuleItem WHERE user_idx = ${escape(userIdx)} AND item_idx IN (${target_item_idx.join(',')}) AND isSell=true`;
         logger.log(`# delete_query ModuleItem : ${delete_query_module_item}`);
-        await connection.query(delete_query_item);
+        await connection.query(delete_query_module_item);
         await sleep(100);
       } else {
+        logger.log(`EMPTY(${userIdx}) NEXT USER`);
         targetUserIdx++;
       }
       if ( 10 < not_found_user_count ) {
