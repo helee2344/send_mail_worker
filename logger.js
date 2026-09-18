@@ -1,8 +1,7 @@
 "use strict"
 
 import winston from 'winston';
-import dotenv from "dotenv";
-dotenv.config({path: `.env.delete_items`});
+
 
 const getDatetime = () => {
   return (new Date()).toISOString();
@@ -14,6 +13,7 @@ class Logger {
   #loggerError = null
 
   constructor(LOG_PATH) {
+    console.log(`LOG_PATH : ${LOG_PATH}`)
     const consoleFormat = winston.format.combine(
       winston.format.colorize(),
       winston.format.simple()
@@ -52,13 +52,13 @@ class Logger {
   }
 
   log(str) {
-    this.#loggerDebug.log('debug', `[${getDatetime()}]`, str)
+    this.#loggerDebug.log('debug', `[${getDatetime()}] ${str}`)
   }
   info(str){
-    this.#loggerInfo.log('info', `[${getDatetime()}]`, str)
+    this.#loggerInfo.log('info', `[${getDatetime()}] ${str}`)
   }
   error(str) {
-    this.#loggerError.log('error', `[${getDatetime()}]`, str)
+    this.#loggerError.log('error', `[${getDatetime()}] ${str}`)
   }
 }
 
