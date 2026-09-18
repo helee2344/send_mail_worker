@@ -14,6 +14,7 @@ env/*
 
 .idea
 .junie
+.env
 .env.auth
 .env.game
 .env.info
@@ -23,4 +24,4 @@ logs_admin
 log/*
 data/dev_mails.db
 data/dev_mails.db-shm
-data/dev_mails.db-wal
+data/dev_mails.db-wal!/.env
