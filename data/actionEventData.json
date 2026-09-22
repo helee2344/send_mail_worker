@@ -71,9 +71,9 @@
         ]
       },
       {
-        "begin_date": "2026-09-23",
-        "end_date": "2026-09-23",
-        "send_time": "1:00",
+        "begin_date": "2026-09-22",
+        "end_date": "2026-09-22",
+        "send_time": "23:30",
         "mail_no": 0,
         "title": 0,
         "context": 0,
@@ -100,7 +100,7 @@
       {
         "begin_date": "2026-09-23",
         "end_date": "2026-09-23",
-        "send_time": "1:30",
+        "send_time": "0:00",
         "mail_no": 0,
         "title": 0,
         "context": 0,
@@ -128,7 +128,7 @@
       {
         "begin_date": "2026-09-23",
         "end_date": "2026-09-23",
-        "send_time": "2:00",
+        "send_time": "0:30",
         "mail_no": 0,
         "title": 0,
         "context": 0,
