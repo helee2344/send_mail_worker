@@ -192,6 +192,8 @@ const sendMail = async (mail) => {
     "ADMIN_EXECUTE_FIRST_KEY": process.env.ADMIN_EXECUTE_FIRST_KEY,
     "ADMIN_EXECUTE_SECOND_KEY": process.env.ADMIN_EXECUTE_SECOND_KEY,
     "ADMIN_EXECUTE_THIRD_KEY": process.env.ADMIN_EXECUTE_THIRD_KEY,
+    "sender_id": process.env.SENDER_ID,
+    "sender_key": process.env.SENDER_KEY,
     "SEND_MAIL": {
       "target_info": {
         "comment": "ALL_USERS / TARGET_USER_IDXS",
