@@ -100,9 +100,35 @@
         ]
       },
       {
-        "begin_date": "2026-10-07",
-        "end_date": "2026-10-07",
-        "send_time": "23:30",
+        "begin_date": "2026-10-14",
+        "end_date": "2026-10-14",
+        "send_time": "22:00",
+        "mail_no": 0,
+        "title": 0,
+        "context": 0,
+        "expire": 14,
+        "subject_text": {
+          "ko": "[AGATHA 20] 최종 TOP3 발표!",
+          "en": "[AGATHA 20] Final TOP3 Results!"
+        },
+        "desc_text": {
+          "ko": "안녕하세요/1 싱커님! GM 하논이에요!/n아가타 키우기 오픈 기념으로 진행된 캐릭터 인기투표 [AGATHA 20]이 드디어 막을 내렸어요!/n매주 소중한 한 표를 보내주신 싱커님들 덕분에 최종 TOP3가 결정되었답니다./n/n■ 최종 결과/n- TOP1: 헤기 (전설)/n- TOP2: 돌로레스 (영웅)/n- TOP3: 오필리아 (영웅)/n/n함께해 주신 감사의 마음을 담아 모든 싱커님께 이벤트 코인을 보내드려요!/n이벤트 상점에서 TOP3 아가타로 교환하실 수 있어요./n앞으로도 아가타들과 함께 즐거운 시간 보내세요!",
+          "en": "Hello/1 Syncer! It/3s GM Hanon!/nOur opening popularity vote [AGATHA 20] has ended/1 and thanks to your votes/1 the final TOP3 is here!/n/n■ Final Results/n- TOP1: Hegi (Legendary)/n- TOP2: Dolores (Epic)/n- TOP3: Ophelia (Epic)/n/nAs a thank-you/1 we/3re sending Event Coins to all Syncers!/nExchange them for the TOP3 Agathas in the Event Shop."
+        },
+        "from_text": {
+          "ko": "GM 하논",
+          "en": "GM Hanon"
+        },
+        "mail_items": [
+          [200008,120],
+          [2,1000],
+          [3,10000]
+        ]
+      },
+      {
+        "begin_date": "2026-10-14",
+        "end_date": "2026-10-14",
+        "send_time": "23:00",
         "mail_no": 0,
         "title": 0,
         "context": 0,
@@ -112,47 +138,19 @@
           "en": "Scheduled Maintenance Complete"
         },
         "desc_text": {
-          "ko": "안녕하세요/1 아가타 키우기입니다./n10월 8일(목) 정기 점검이 완료되었습니다./n/n■ 점검 내용/n/n- 신 서버 오픈! (오픈 기념 7일 출석 체크 추가)/n- 채팅 서버 개선/1 숨김 기능 추가/n- 스킬 설명 수정/1 키워드 추가/n- 오필리아/1 돌로레스 메모리 추가/n- 돌로레스/1 앰버/1 아라크네/1 아마리/1 헤기/1 이즈나/1 에이버리 공명 추가/n/n기다려주신 싱커님들께 감사의 마음을 담아 점검 보상을 보내드립니다./n업데이트 상세 내용은 공식 카페의 10월 8일 업데이트 노트를 확인해주세요./n더욱 안정적인 서비스를 위해 최선을 다하겠습니다.",
-          "en": "Hello/1 this is AgathaIdle./nThe scheduled maintenance on October 8 (Thu) is complete./n/n■ Maintenance Details/n/n- New Server Open! (7-Day Opening Check-in Added)/n- Chat Server Improved/1 Hide Feature Added/n- Skill Descriptions Revised/1 Keywords Added/n- Ophelia and Dolores Memories Added/n- Resonance Added: Dolores/1 Amber/1 Arachne/1 Amari/1 Hegi/1 Izuna/1 Avery/n/nThank you for your patience. Please enjoy the maintenance reward!/nSee the October 8 Update Notes on our official community for details."
+          "ko": "안녕하세요/1 아가타 키우기입니다./n10월 15일(목) 정기 점검이 완료되었습니다./n/n■ 점검 내용/n/n- 할로윈 이벤트 추가!/n- 하논/1 셜머/1 텔로메 공명 추가/n- 하논 메모리 추가/n- 신규 패시브 스킬 추가/n- 채팅 이모티콘 기능 추가/n/n■ 안내/n조각 상점 상품 가격이 조각 300개에서 150개로 인하되었습니다./n이미 구매하신 싱커님께는 차액을 우편으로 지급해 드릴 예정입니다. 지급 후 우편함을 확인해 주세요./n/n기다려주신 싱커님들께 감사의 마음을 담아 점검 보상을 보내드립니다./n업데이트 상세 내용은 공식 카페의 10월 15일 업데이트 노트를 확인해주세요./n더욱 안정적인 서비스를 위해 최선을 다하겠습니다.",
+          "en": "Hello/1 this is AgathaIdle./nThe scheduled maintenance on October 15 (Thu) is complete./n/n■ Maintenance Details/n/n- Halloween Event Added!/n- Resonance Added: Hanon/1 Sulmu/1 Telome/n- Hanon Memory Added/n- New Passive Skills Added/n- Chat Emoticons Added/n/n■ Notice/nPiece Shop prices have been reduced from 300 to 150 Pieces./nSyncers who already purchased will receive the difference by mail soon./n/nThank you for your patience. Please enjoy the maintenance reward!/nSee the October 15 Update Notes on our official community for details."
         },
         "from_text": {
           "ko": "아가타 키우기 운영팀",
           "en": "AgathaIdle Operations Team"
         },
         "mail_items": [
-          [2,4000],
-          [4,20],
-          [5,60],
-          [6,60],
-          [3,4000]
-        ]
-      },
-      {
-        "begin_date": "2026-10-08",
-        "end_date": "2026-10-08",
-        "send_time": "4:10",
-        "mail_no": 0,
-        "title": 0,
-        "context": 0,
-        "expire": 14,
-        "subject_text": {
-          "ko": "긴급 점검 보상",
-          "en": "Emergency Maintenance Reward"
-        },
-        "desc_text": {
-          "ko": "안녕하세요/1 아가타 키우기입니다./n10월 8일(목) 긴급 점검이 완료되었습니다./n/n■ 점검 내용/n- 로그인 과정에서 발생하는 장애 현상 개선/n/n갑작스러운 긴급 점검으로 게임 이용에 불편을 드려 진심으로 죄송합니다./n점검을 기다려주신 싱커님들께 감사와 사과의 마음을 담아 점검 보상을 보내드립니다./n더욱 안정적인 환경에서 즐기실 수 있도록 최선을 다하겠습니다.",
-          "en": "Hello/1 this is AgathaIdle./nThe emergency maintenance on October 8 (Thu) is complete./n/n■ Maintenance Details/n- Fixed issues occurring during login/n/nWe sincerely apologize for the inconvenience caused by the sudden maintenance./nPlease accept this reward as a token of our thanks and apology."
-        },
-        "from_text": {
-          "ko": "아가타 키우기 운영팀",
-          "en": "AgathaIdle Operations Team"
-        },
-        "mail_items": [
-          [2,2000],
-          [3,2000],
-          [4,10],
-          [5,30],
-          [6,30]
+          [2,3000],
+          [4,15],
+          [5,45],
+          [6,45],
+          [3,3000]
         ]
       }
     ]
